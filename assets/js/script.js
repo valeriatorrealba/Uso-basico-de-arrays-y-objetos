@@ -39,7 +39,7 @@ let radiologia =    [{HORA: "11:00",
                     PREVISION: "FONASA"
                     }
                     ]
-document.write(`<p></p>Primera atención: ${radiologia[0].PACIENTE} - ${radiologia[0].PREVISION} | Última atención: ${radiologia[radiologia.length-1].PACIENTE} - ${radiologia[radiologia.length-1].PREVISION} </p>`);
+document.write(`<p>Primera atención: ${radiologia[0].PACIENTE} - ${radiologia[0].PREVISION} | Última atención: ${radiologia[radiologia.length-1].PACIENTE} - ${radiologia[radiologia.length-1].PREVISION} </p>`);
 
 let traumatologia = [   {HORA: "8:00",
                         ESPECIALISTA: "MARIA PAZ ALTUZARRA",
@@ -128,8 +128,8 @@ document.write(`<p>Primera atención: ${dental[0].PACIENTE} - ${dental[0].PREVIS
 var textoFila = "<tr><th>HORA</th><th>ESPECIALISTA</th><th>PACIENTE</th><th>RUT</th><th>PREVISION</th></tr>";
 
 for (var i= 0; i < radiologia.length; i++){
-    textoFila+= `<tr>
-                <td>${radiologia[i].HORA}</td>
+    textoFila+= `<tr">
+                <td >${radiologia[i].HORA}</td>
                 <td>${radiologia[i].ESPECIALISTA}</td>
                 <td>${radiologia[i].PACIENTE}</td>
                 <td>${radiologia[i].RUT}</td>
@@ -142,7 +142,7 @@ document.getElementById("tabla").innerHTML = textoFila;
 var textoFila2 = "<tr><th>HORA</th><th>ESPECIALISTA</th><th>PACIENTE</th><th>RUT</th><th>PREVISION</th></tr>";
 for (var i= 0; i < traumatologia.length; i++){
     textoFila2+= `<tr>
-                <td>${traumatologia[i].HORA}</td>
+                <td >${traumatologia[i].HORA}</td>
                 <td>${traumatologia[i].ESPECIALISTA}</td>
                 <td>${traumatologia[i].PACIENTE}</td>
                 <td>${traumatologia[i].RUT}</td>
