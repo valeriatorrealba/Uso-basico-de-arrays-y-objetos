@@ -17,3 +17,7 @@ arreglos para esto)
     Ej: Primera atención: Juan Pérez - Fonasa | Última atención: Ana Gálvez - Isapre.
 
 3. Recorrer el arreglo y mostrar su contenido en una tabla
+
+## Autor
+
+Este proyecto fue desarrollado por **Valeria Torrealba**.
